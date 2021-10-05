@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/png">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Todo List</h1>
+    </header>
+
+    <main class="main">
+        <section class="todo">
+        <div class="container">
+            <form class="form">
+                <input type="text" class="form__input" placeholder="type todo ...">
+                <button class="form__button" type="button">Button</button>
+            </form>
+            <ul class="todo__list">
+                
+            </ul>
+        </div>
+        </section>
+    </main>
+
+    <template id="template">
+        <li class="todo__item">
+            <input class="todo__checkbox" type="checkbox" >
+            <h3 class="todo__title">Todo #1</h3>
+            <button class="todo__button" type="button">Delate</button>
+        </li>
+    </template>
+
+
+    
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
